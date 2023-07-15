@@ -3,9 +3,7 @@ from modules import script_callbacks
 import gradio as gr
 import os
 
-def clean(lst):
-    y = [x.strip("\n") for x in lst]
-    return y[-1]
+
 
 
 
@@ -20,9 +18,8 @@ js = """function close_window() {
 }
 """
 
-
 def stop_button(component, **kwargs):
-    after_this_compo = "setting_{}".format(clean(shared.opts.data["quicksettings"].split(",")))
+    after_this_compo = "setting_{}".format(shared.opts.data["quicksettings"].replace(" ","").split(",")[-1])
 
     # print(after_this_compo)
 
