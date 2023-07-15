@@ -19,7 +19,7 @@ js = """function close_window() {
 """
 
 def stop_button(component, **kwargs):
-    after_this_compo = "setting_{}".format(shared.opts.data["quicksettings"].replace(" ","").split(",")[-1])
+    after_this_compo = "setting_{}".format(shared.opts.data["quicksettings_list"][-1])
 
     # print(after_this_compo)
 
