@@ -10,7 +10,6 @@ import os
 
 js = """function close_window() {
   if (confirm("Close the application?")) {
-     close();
     return true;
   } else {
     return false;
