@@ -8,20 +8,27 @@ import os
 
 
 
-js = """function close_window() {
+js = """
+function close_window() {
   if (confirm("Close the application?")) {
 
-    document.body.style.display = 'none';
+    document.body.innerHTML = ''
     var messageDiv = document.createElement('div');
     messageDiv.textContent = 'You may close this window';
+    messageDiv.style.display = 'flex';
+    messageDiv.style.alignItems = 'center';
+    messageDiv.style.justifyContent = 'center';
     messageDiv.style.textAlign = 'center';
+    
     messageDiv.style.fontWeight = 'bold';
+    messageDiv.style.fontSize = '40px'; // 
 
     // Set the background color
-    document.body.style.backgroundColor = '#f2f2f2'; // Greyish background color
+    document.body.style.backgroundColor = '#d49013'; 
 
     // Append the message div to the body
     document.body.appendChild(messageDiv);
+    
     return true;
     
   } else {
