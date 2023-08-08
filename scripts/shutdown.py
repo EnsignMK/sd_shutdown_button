@@ -10,7 +10,20 @@ import os
 
 js = """function close_window() {
   if (confirm("Close the application?")) {
+
+    document.body.style.display = 'none';
+    var messageDiv = document.createElement('div');
+    messageDiv.textContent = 'You may close this window';
+    messageDiv.style.textAlign = 'center';
+    messageDiv.style.fontWeight = 'bold';
+
+    // Set the background color
+    document.body.style.backgroundColor = '#f2f2f2'; // Greyish background color
+
+    // Append the message div to the body
+    document.body.appendChild(messageDiv);
     return true;
+    
   } else {
     return false;
   }
