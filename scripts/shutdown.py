@@ -29,6 +29,10 @@ function close_window() {
     // Append the message div to the body
     document.body.appendChild(messageDiv);
     
+     setTimeout(function() {
+      window.close();
+    }, 2000);
+    
     return true;
     
   } else {
