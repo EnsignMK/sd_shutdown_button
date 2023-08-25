@@ -31,7 +31,7 @@ and the program will be stopped.
                 Now the new feature should be working.
 
 
-                or add the  --autolaunch   argument
+           or add the  --autolaunch   argument
 
  ## potential issue: 
  If the tab doesn't close no worries, it's a browser thing.Your webui is shutdown.
