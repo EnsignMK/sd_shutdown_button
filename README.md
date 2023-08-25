@@ -30,6 +30,9 @@ and the program will be stopped.
                 keep ctrl (control) pressed and click on the link. 
                 Now the new feature should be working.
 
+
+                or add the  --autolaunch   argument
+
  ## potential issue: 
  If the tab doesn't close no worries, it's a browser thing.Your webui is shutdown.
                 you will see this <img width="400" alt="image" src="https://github.com/EnsignMK/sd_shutdown_button/assets/91480302/2ad1d71a-f54b-48be-9025-82dee4b2d54a">
