@@ -9,8 +9,7 @@ This is an extension made for [AUTOMATIC1111's stable-diffusion-webui](https://g
 - Click on the exit button 
 ![example_image](stopbutton.png)
 afterwards this pop up appears on your tab
- > ![example_image](confirm_close.png)
-
+![confirm_close](confirm_close.png)
 - .press OK if you want to exit the application ,  the stable diffusion tab will be automatically closed
 and the program will be stopped.
 
