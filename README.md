@@ -26,11 +26,15 @@ and the program will be stopped.
                 - whenever you start the webui and you see  the public url
                 ![image](https://github.com/EnsignMK/sd_shutdown_button/assets/91480302/2193381f-ae8b-4cd7-965d-be2e9bb29663)
                
-                keep ctrl (control) pressed and click on the link. 
-                Now the new feature should be working.
+              1. keep ctrl pressed and click on the link,now the new feature should be working.
+              
+              2. alternatively add the --autolaunch   argument before lauching stable diffusion then,
+              Stable webui automatically opens in the browser.
+              
+      
 
 
-           or add the  --autolaunch   argument
+        
 
  ## potential issue: 
  If the tab doesn't close no worries, it's a browser thing.Your webui is shutdown.
