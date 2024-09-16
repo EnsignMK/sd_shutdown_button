@@ -50,7 +50,7 @@ def core():  # ui stuff
     btn.click(when, hidden_checkbox, hidden_checkbox, _js=js)
 
 
-key = opts.data["quicksettings_list"][-1]
+key = opts.quicksettings_list[-1]
 
 
 def fun(key):  # figuring out where to place the stop button
